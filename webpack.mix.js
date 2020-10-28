@@ -3,8 +3,8 @@ const sidebarItems = require('./sidebar-items.json');
 
 require('laravel-mix-nunjucks')
 
-mix.njk('src/', 'dist/', {
-   watch: true,
+mix.njk('src/', '../../../public/ui/voler/', {
+   watch: false,
    data: {
       web_title: "Voler Admin Dashboard",
       sidebarItems
@@ -23,12 +23,19 @@ mix.njk('src/', 'dist/', {
    },
 })
 mix
-   .js("src/assets/js/app.js", "dist/assets/js")
-   .js("src/assets/js/main.js", "dist/assets/js")
-   .js("src/assets/js/feather-icons.js", "dist/assets/js")
-   .sass("src/assets/scss/app.scss", "dist/assets/css")
+   .js("src/assets/js/app.js", "../../../public/ui/voler/js")
+   .js("src/assets/js/main.js", "../../../public/ui/voler/js")
+   .js("src/assets/js/feather-icons.js", "../../../public/ui/voler/js")
+   .sass("src/assets/scss/app.scss", "../../../public/ui/voler/css")
    .options({
       processCssUrls: false
    })
-   .sass("src/assets/scss/bootstrap.scss", "dist/assets/css")
-   .setPublicPath("dist");
+   .sass("src/assets/scss/bootstrap.scss", "../../../public/ui/voler/css")
+   .setPublicPath("../../../public/ui/voler");
+// get the vendor assets public
+/*
+mix
+	.copy("node_modules/apexcharts/dist/apexcharts.min.css", "../../../public/ui/voler/vendor");
+*/
+
+	

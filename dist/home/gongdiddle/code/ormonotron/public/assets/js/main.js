@@ -146,7 +146,7 @@ feather.replace();
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/vagrant/code/ormonotron/resources/templates/voler/src/assets/js/main.js */"./src/assets/js/main.js");
+module.exports = __webpack_require__(/*! /home/gongdiddle/code/ormonotron/resources/templates/voler/src/assets/js/main.js */"./src/assets/js/main.js");
 
 
 /***/ })

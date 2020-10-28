@@ -2243,10 +2243,6 @@ progress {
   color: #828D99;
   opacity: 1;
 }
-.form-control::-ms-input-placeholder {
-  color: #828D99;
-  opacity: 1;
-}
 .form-control::placeholder {
   color: #828D99;
   opacity: 1;
@@ -2399,8 +2395,7 @@ progress {
   border-radius: 50%;
 }
 .form-check-input:active {
-  -webkit-filter: brightness(90%);
-          filter: brightness(90%);
+  filter: brightness(90%);
 }
 .form-check-input:focus {
   border-color: #5A8DEE;
@@ -2424,8 +2419,7 @@ progress {
 }
 .form-check-input:disabled {
   pointer-events: none;
-  -webkit-filter: none;
-          filter: none;
+  filter: none;
   opacity: 0.5;
 }
 .form-check-input[disabled] ~ .form-check-label, .form-check-input:disabled ~ .form-check-label {

@@ -7850,9 +7850,9 @@ __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/vagrant/code/ormonotron/resources/templates/voler/src/assets/js/app.js */"./src/assets/js/app.js");
-__webpack_require__(/*! /home/vagrant/code/ormonotron/resources/templates/voler/src/assets/scss/app.scss */"./src/assets/scss/app.scss");
-module.exports = __webpack_require__(/*! /home/vagrant/code/ormonotron/resources/templates/voler/src/assets/scss/bootstrap.scss */"./src/assets/scss/bootstrap.scss");
+__webpack_require__(/*! /home/gongdiddle/code/ormonotron/resources/templates/voler/src/assets/js/app.js */"./src/assets/js/app.js");
+__webpack_require__(/*! /home/gongdiddle/code/ormonotron/resources/templates/voler/src/assets/scss/app.scss */"./src/assets/scss/app.scss");
+module.exports = __webpack_require__(/*! /home/gongdiddle/code/ormonotron/resources/templates/voler/src/assets/scss/bootstrap.scss */"./src/assets/scss/bootstrap.scss");
 
 
 /***/ })
